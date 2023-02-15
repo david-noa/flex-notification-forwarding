@@ -1,0 +1,38 @@
+{
+  "name": "Flex Notification Forwarding",
+  "description": "Forward your Flex Notifications",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://flex.twilio.com/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "options_page": "options.html",
+   "permissions": ["storage", "activeTab", "scripting"],
+   "host_permissions": [
+    "https://www.flex.twilio.com/*",
+    "https://api.telegram.org/*"
+   ],
+   "action": {
+    "default_popup": "popup.html",
+    "default_title": "Flex Notification Forwarding",
+    "default_icon": {
+      "16": "/images/flex-icon-default-16.png",
+      "32": "/images/flex-icon-default-32.png",
+      "48": "/images/flex-icon-default-48.png",
+      "128": "/images/flex-icon-default-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/flex-icon-active-16.png",
+    "32": "/images/flex-icon-active-32.png",
+    "48": "/images/flex-icon-active-48.png",
+    "128": "/images/flex-icon-active-128.png"
+  }
+}

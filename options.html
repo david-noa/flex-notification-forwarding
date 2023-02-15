@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Settings</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="main-container">
+    <div class="m1 ctr">
+        <h2>API INTEGRATIONS</h2>
+      </div>
+    <div class="outer-container">
+      <div class="row-container">
+        <label class="switch">
+          <input type="checkbox" name="smsToggle">
+          <span class="slider round"></span>
+        </label>
+        <h3>Twilio SMS</h3>
+      </div>
+      <br>
+      <div id="twilioSMS-options-container">
+      <div class="input-item">
+        <label>Twilio Account SID:</label>
+        <input id="twilioAccountSid" type="password" value="" placeholder="Account SID"/>
+        <button class="button saveTwilioAccountSid">Save</button>
+      </div>
+      <br>
+      <div class="input-item">
+        <label>Twilio Auth Token:</label>
+        <input id="twilioAuthToken" type="password" value="" placeholder="Auth Token"/>
+        <button class="button saveTwilioAuthToken">Save</button>
+      </div>
+      <br>
+      <div class="input-item">
+        <label>Twilio Phone #:</label>
+        <input id="twilioPhoneNumber" value="" placeholder="+11234567890"/>
+        <button class="button saveTwilioPhoneNumber">Save</button>
+      </div>
+      <br>
+      <div class="input-item">
+        <label>Forwarding Phone #:</label>
+        <input id="twilioForwardPhoneNumber" value="" placeholder="+11234567890"/>
+        <button class="button saveTwilioForwardPhoneNumber">Save</button>
+      </div>
+      <br>
+      <div class="input-item">
+        <button class="testTwilioSms">Test</button>
+      </div>
+      </div>
+      <div class="row-container">
+        <label class="switch">
+          <input type="checkbox" name="telegramToggle">
+          <span class="slider round"></span>
+        </label>
+        <h3>Telegram</h3>
+      </div>
+      <br>
+      <div id="telegram-options-container">
+      <div class="input-item">
+        <label>Telegram Bot:</label>
+        <input id="telegramBotToken" type="password" value="" placeholder="Authentication Token"/>
+        <button class="button saveTelegramBotToken">Save</button>
+      </div>
+      <br>
+      <div class="input-item">
+        <label>Chat ID:</label>
+        <input id="telegramChatId" type="password" value="" placeholder="Enter Chat ID"/>
+        <button class="button saveTelegramChatId">Save</button>
+      </div>
+      <br>
+      <div class="input-item">
+        <button class="testTelegram">Test</button>
+      </div>
+      </div>
+      <br>
+      <div class="row-container" id="hidden">
+        <label class="switch">
+          <input type="checkbox" name="whatsappToggle">
+          <span class="slider round"></span>
+        </label>
+        <h3>Whatsapp</h3>
+      </div>
+    </div>
+  </div>
+    <script src="options.js"></script>
+  </body>
+</html>
