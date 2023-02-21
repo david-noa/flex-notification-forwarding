@@ -16,22 +16,24 @@ Download the latest build of the extension from this GitHub page using the '**<>
 
 ## Load the unpacked Extension
 To load an unpacked extension in [developer mode](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked):
-1. Go to the Extensions page by entering `chrome://extensions` in a new tab. (*By design `chrome://` URLs are not linkable.*)
+1. Go to the Extensions page by entering `chrome://extensions` in a new tab (*by design `chrome://` URLs are not linkable*).
 * Alternatively, click on the Extensions menu puzzle button and select **Manage Extensions** at the bottom of the menu.
 * Or, click the Chrome menu, hover over **More Tools**, then select **Extensions**.
 2. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
 3. Click the **Load unpacked** button and select the directory containing the extension files that you downloaded in the previous section.
+> <img src="https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/BzVElZpUtNE4dueVPSp3.png" width="258" height="188" />
 
 ## How to use the Extension
 * From the extensions menu puzzle button, pin your extension to the browser bar with the ‘pin’ icon
-* Access the **Options** page by right-clicking the pinned Flex Notification Forwarding extension icon and selecting 'Options'
+* Access the extension's **Options** page by right-clicking the pinned Flex Notification Forwarding extension icon and selecting 'Options'
+> <img src="https://i.imgur.com/xlnD3Kh.png" width="210" height="205" />
 * From the **Options** page, you can enable/disable and configure the integrations for which to forward notifications
 * When you’ve configured an integration, you can use the ‘Test’ button to test whether your integration is configured correctly
 * Click the Flex Notification Forwarding icon to bring up the extension toggle popup, which allows you to enable/disable forwarding (*Note: at this time, you will need your Flex chat browser tab to be the active tab before enabling the extension or you will receive an error message*)
 
 ## Configuring Twilio SMS
-To get started, create a [Twilio](https://www.twilio.com/try-twilio) account
-1. To get your first Twilio phone number, [head on over to your Twilio console](https://www.twilio.com/console/phone-numbers/search) and find a number you like with SMS capabilities
+To get started, create a [Twilio](https://www.twilio.com/try-twilio) account or sign-in to an existing account
+1. To [get your first Twilio phone number](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account#get-your-first-twilio-phone-number), head on over to your [Twilio console](https://www.twilio.com/console/phone-numbers/search) and find a number you like with SMS capabilities
 2. Once you get a Twilio phone number with SMS, your [Twilio console](https://console.twilio.com/) will have all the information you need to integrate Twilio SMS notifications with Flex Notification Forwarding:
 * Account SID
 * Auth Token
