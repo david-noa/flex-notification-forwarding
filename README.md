@@ -12,7 +12,7 @@ Incoming chat request from: <username>
 > *Disclaimer: this extension is for educational purposes and provided as-is. By using this extension you assume all responsibility for any chats missed or affected metrics. Understand that in its current state, this extension is loaded locally and, therefore, any information entered and stored in the extension is not secure. No PII is handled with this utility, however, know that customer account usernames will be forwarded to the messaging integrations you enable.*
 
 ## Download the Extension
-Download the latest build of the extension here and store the included folders in any directory on your local machine
+Download the latest build of the extension from this GitHub page using the '**<> Code**' drop-down menu at the top and selecting 'Download as ZIP'. Extract the files in this ZIP into any directory on your local machine (*e.g. 'Documents'*).
 
 ## Load the unpacked Extension
 To load an unpacked extension in [developer mode](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked):
@@ -20,7 +20,7 @@ To load an unpacked extension in [developer mode](https://developer.chrome.com/d
 * Alternatively, click on the Extensions menu puzzle button and select **Manage Extensions** at the bottom of the menu.
 * Or, click the Chrome menu, hover over **More Tools**, then select **Extensions**.
 2. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
-3. Click the **Load unpacked** button and select the extension directory.
+3. Click the **Load unpacked** button and select the directory containing the extension files that you downloaded in the previous section.
 
 ## How to use the Extension
 * From the extensions menu puzzle button, pin your extension to the browser bar with the ‘pin’ icon and right-click the Flex Notification Forwarding extension icon ***or*** use the three dots menu next to the extension in your list of extensions to access the Flex Notification Forwarding **Options** page
