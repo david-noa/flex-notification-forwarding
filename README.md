@@ -23,7 +23,8 @@ To load an unpacked extension in [developer mode](https://developer.chrome.com/d
 3. Click the **Load unpacked** button and select the directory containing the extension files that you downloaded in the previous section.
 
 ## How to use the Extension
-* From the extensions menu puzzle button, pin your extension to the browser bar with the ‘pin’ icon and right-click the Flex Notification Forwarding extension icon ***or*** use the three dots menu next to the extension in your list of extensions to access the Flex Notification Forwarding **Options** page
+* From the extensions menu puzzle button, pin your extension to the browser bar with the ‘pin’ icon
+* Access the **Options** page by right-clicking the pinned Flex Notification Forwarding extension icon and selecting 'Options'
 * From the **Options** page, you can enable/disable and configure the integrations for which to forward notifications
 * When you’ve configured an integration, you can use the ‘Test’ button to test whether your integration is configured correctly
 * Click the Flex Notification Forwarding icon to bring up the extension toggle popup, which allows you to enable/disable forwarding (*Note: at this time, you will need your Flex chat browser tab to be the active tab before enabling the extension or you will receive an error message*)
