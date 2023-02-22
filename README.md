@@ -25,7 +25,7 @@ To load an unpacked extension in [developer mode](https://developer.chrome.com/d
 
 ## How to use the Extension
 * From the extensions menu puzzle button, pin your extension to the browser bar with the ‘pin’ icon
-* Access the extension's **Options** page by right-clicking the pinned Flex Notification Forwarding extension icon and selecting 'Options'
+* Access the extension's **Options** page by ***right***-clicking the pinned Flex Notification Forwarding extension icon and selecting 'Options'
 > <img src="https://i.imgur.com/xlnD3Kh.png" width="210" height="205" />
 * From the **Options** page, you can enable/disable and configure the integrations for which to forward notifications
 * When you’ve configured an integration, you can use the ‘Test’ button to test whether your integration is configured correctly
