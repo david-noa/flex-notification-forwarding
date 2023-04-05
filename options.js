@@ -177,7 +177,7 @@ document.querySelector('.testTelegram').addEventListener('click', function(){
 
     body: JSON.stringify({
         chat_id: `${telegramChatId}`,
-        text: "[Test] Incoming Chat Request: (username)"
+        text: "[Test] Incoming Chat Request from (username)"
     }),
 
     headers: {
@@ -198,7 +198,7 @@ myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
 var urlencoded = new URLSearchParams();
 urlencoded.append("To", `${twilioForwardPhoneNumber}`);
 urlencoded.append("From", `${twilioPhoneNumber}`);
-urlencoded.append("Body", "[Test] Incoming Chat Request from: (username)");
+urlencoded.append("Body", "[Test] Incoming Chat Request from (username)");
 
 var requestOptions = {
   method: 'POST',

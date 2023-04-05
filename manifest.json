@@ -1,7 +1,7 @@
 {
   "name": "Flex Notification Forwarding",
   "description": "Forward your Flex Notifications",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"

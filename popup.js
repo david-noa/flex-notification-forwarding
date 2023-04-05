@@ -1,4 +1,5 @@
 let pluginToggle = document.querySelector("input[name=pluginToggle]");
+let optionsButton = document.getElementById("options-button");
 let currentStatusColor = toggleNotifications.style.backgroundColor;
 let telegramAPIKey = document.getElementById("telegramAPIKey");
 let active_tab = 0;
@@ -37,13 +38,6 @@ function setPluginStatus(status, statusText) {
   }
 }
 
-// force toggle state on document load
-/* function toggle(checked) {
-  if (checked != pluginToggle.checked) {
-    pluginToggle.click();
-  }
-} */
-
 // extension toggle function
 pluginToggle.addEventListener('change', function() {
   chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
@@ -73,6 +67,11 @@ pluginToggle.addEventListener('change', function() {
       });
       }
     });
+});
+
+//options button
+optionsButton.addEventListener('click', function() {
+  chrome.runtime.openOptionsPage();
 });
 
 document.addEventListener('DOMContentLoaded', initializePopup);
