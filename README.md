@@ -75,6 +75,24 @@ content-script.js:23 Uncaught TypeError: Cannot read properties of undefined (re
 Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
 ```
 
+## Troubleshooting
+*"I followed the steps to setup X integration, but the 'Test' button doesn't work"*
+
+The best way to troubleshoot the integrations is to view the JSON response after pressing the 'Test' button.
+You can view the JSON response using Chrome developer tools while on the extension's **Options** page
+
+1. *Right-click* anywhere on the **Options** page and choose 'Inspect'
+2. Select the 'Console' tab in the Chrome developer tools panel
+
+After clicking the 'Test' button while viewing the developer console, you should see the JSON response from the integration's API.
+You may need to click the '>' to expand the response. Look for any details JSON response such as an error code or error message that might help to identify the issue.
+
+For example, the error message:
+```
+{"code": 21606, "message": "The From phone number +13295551234 is not a valid, SMS-capable inbound phone number or short code for your account.", "more_info": "https://www.twilio.com/docs/errors/21606", "status": 400}
+```
+gives a clear indication that your 'From' phone number for Twilio SMS is either entered incorrectly or invalid.
+
 ## Upcoming Feature List: 
 * Option to mask or omit customer usernames in forwarded notifications
 * Error catching for invalid values entered in the options page
