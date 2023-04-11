@@ -79,13 +79,13 @@ Uncaught (in promise) Error: Could not establish connection. Receiving end does 
 *"I followed the steps to setup X integration, but the 'Test' button doesn't work"*
 
 The best way to troubleshoot the integrations is to view the JSON response after pressing the 'Test' button.
-You can view the JSON response using Chrome developer tools while on the extension's **Options** page
+You can view the JSON response using Chrome developer tools while on the extension's **Options** page.
 
 1. *Right-click* anywhere on the **Options** page and choose 'Inspect'
 2. Select the 'Console' tab in the Chrome developer tools panel
 
 After clicking the 'Test' button while viewing the developer console, you should see the JSON response from the integration's API.
-You may need to click the '>' to expand the response. Look for any details JSON response such as an error code or error message that might help to identify the issue.
+You may need to click the '>' to expand the response. Look for any details in the JSON response such as an error code or error message that might help to identify the issue.
 
 For example, the error message:
 ```
