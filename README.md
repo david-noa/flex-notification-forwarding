@@ -47,7 +47,7 @@ To get started, download Telegram [Desktop](https://desktop.telegram.org), [Web]
 2. Choose a **Friendly name** for your bot, for example, `My First Telegram Bot`
 3. Choose a **username** for your bot ending in ‘bot’, for example, `mytestbot`
 4. **@BotFather** will then provide you with your new bot’s Authentication token. Store this **API token** securely in your records and enter it in the Flex Notification Forwarding **Options** page ‘Telegram Bot’ field and click ‘Save’
-> **Make sure to save your token in a secure place, treat it like a password and don't share it with anyone.**
+> *Make sure to save your token in a secure place, treat it like a password and don't share it with anyone.*
 5. Start a private chat with your new bot by visiting the link provided by **@BotFather** (*for example, t.me/mytestbot*)
 6. Your new bot now needs to know the `chat ID` of this new private message. Send it any message and then enter the following command in your browser URL bar (or use a tool like [Postman](https://www.postman.com/)):
 
