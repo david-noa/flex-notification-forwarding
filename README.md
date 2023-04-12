@@ -12,7 +12,7 @@ Incoming chat request from: <username>
 > *Disclaimer: this extension is for educational purposes and provided as-is. By using this extension you assume all responsibility for any chats missed or affected metrics. Understand that in its current state, this extension is loaded locally and, therefore, any information entered and stored in the extension is not secure. No PII is handled with this utility, however, know that customer account usernames will be forwarded to the messaging integrations you enable.*
 
 ## Download the Extension
-Download the latest build of the extension from this GitHub page using the '**<> Code**' drop-down menu at the top and selecting 'Download as ZIP'. Extract the files in this ZIP into any directory on your local machine (*e.g. 'Documents'*).
+Download the latest build of the extension from this GitHub page using the '**<> Code**' drop-down menu at the top and selecting 'Download as ZIP'. Extract the files in this ZIP and place the extracted folder into any directory on your local machine (*e.g. 'Documents>flex-notification-forwarding-main'*).
 
 ## Load the unpacked Extension
 To load an unpacked extension in [developer mode](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked):
@@ -20,7 +20,7 @@ To load an unpacked extension in [developer mode](https://developer.chrome.com/d
 * Alternatively, click on the Extensions menu puzzle button and select **Manage Extensions** at the bottom of the menu.
 * Or, click the Chrome menu, hover over **More Tools**, then select **Extensions**.
 2. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
-3. Click the **Load unpacked** button and select the directory containing the extension files that you downloaded in the previous section.
+3. Click the **Load unpacked** button and select the folder ('flex-notification-forwarding-main') containing the extension files that you downloaded in the previous section.
 > <img src="https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/BzVElZpUtNE4dueVPSp3.png" width="258" height="188" />
 
 ## How to use the Extension
