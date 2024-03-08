@@ -21,7 +21,7 @@ To load an unpacked extension in [developer mode](https://developer.chrome.com/d
 * Or, click the Chrome menu, hover over **More Tools**, then select **Extensions**.
 2. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
 3. Click the **Load unpacked** button and select the folder ('flex-notification-forwarding-main') containing the extension files that you downloaded in the previous section.
-> <img src="https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/BzVElZpUtNE4dueVPSp3.png" width="258" height="188" />
+> <img src="https://developer.chrome.com/static/docs/extensions/get-started/tutorial/hello-world/image/extensions-page-e0d64d89a6acf_1440.png" width="258" height="188" />
 
 ## How to use the Extension
 * From the extensions menu puzzle button, pin your extension to the browser bar with the ‘pin’ icon
